@@ -7,3 +7,6 @@
 [submodule "lib"]
 	path = lib
 	url = git://github.com/eregansu/lib.git
+[submodule "install"]
+	path = install
+	url = git://github.com/eregansu/install.git
