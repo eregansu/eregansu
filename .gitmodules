@@ -4,3 +4,6 @@
 [submodule "gendoc"]
 	path = gendoc
 	url = git://github.com/eregansu/gendoc.git
+[submodule "lib"]
+	path = lib
+	url = git://github.com/eregansu/lib.git
