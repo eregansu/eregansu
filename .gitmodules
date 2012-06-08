@@ -1,3 +1,6 @@
 [submodule "docs"]
 	path = docs
 	url = git://github.com/eregansu/eregansu.github.com.git
+[submodule "gendoc"]
+	path = gendoc
+	url = git://github.com/eregansu/gendoc.git
