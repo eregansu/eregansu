@@ -6,9 +6,8 @@ all: tests docs
 tests:
 	cd t && $(MAKE)
 
-docs:
-	rm -rf docs
-	php -f gendoc/gendoc.php -- -o docs .
+docs site:
+	cd docs && $(MAKE) $@
 
 install: all
 	mkdir -p $(DESTDIR)$(phpincdir)/eregansu
@@ -16,4 +15,4 @@ install: all
 
 clean:
 
-.PHONY: all tests docs clean install
+.PHONY: all tests docs site clean install
