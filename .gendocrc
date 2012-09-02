@@ -6,7 +6,6 @@ ignore examples
 ignore index.dist.php
 ignore index.install.php
 ignore config.default.php
-sourcebase http://github.com/nexgenta/eregansu/blob/master/
-author Mo McRoberts <mo.mcroberts@nexgenta.com>
-framework EregansuPlatform Eregansu Platform
+author Mo McRoberts <https://github.com/nevali>
+framework platform Eregansu Platform
 copyright Mo McRoberts
