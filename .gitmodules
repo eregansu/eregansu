@@ -16,3 +16,6 @@
 [submodule "framework"]
 	path = framework
 	url = git://github.com/eregansu/framework.git
+[submodule "testsuite"]
+	path = testsuite
+	url = git://github.com/eregansu/testsuite.git
