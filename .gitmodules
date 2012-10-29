@@ -28,3 +28,9 @@
 [submodule "setup"]
 	path = setup
 	url = git://github.com/eregansu/setup.git
+[submodule "samples"]
+	path = samples
+	url = git://github.com/eregansu/samples.git
+[submodule "wp-plugins"]
+	path = wp-plugins
+	url = git://github.com/eregansu/wp-plugins.git
