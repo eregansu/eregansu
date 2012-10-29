@@ -19,3 +19,12 @@
 [submodule "testsuite"]
 	path = testsuite
 	url = git://github.com/eregansu/testsuite.git
+[submodule "default"]
+	path = default
+	url = git://github.com/eregansu/default.git
+[submodule "login"]
+	path = login
+	url = git://github.com/eregansu/login.git
+[submodule "setup"]
+	path = setup
+	url = git://github.com/eregansu/setup.git
