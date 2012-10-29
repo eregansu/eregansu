@@ -50,7 +50,7 @@ elif test -r index.php ; then
 	php_script="index.php"
 else
 	if test -r "$platform/index.install.php" ; then
-		echo ">>> index.php does not exist, running 'cli insall'" >&2
+		echo ">>> index.php does not exist, running 'cli install'" >&2
 		exec ${PHP_5} -f "$platform/index.install.php"
 	fi
 	echo "$0: cannot find index.php or $dir/index.install.php" >&2
