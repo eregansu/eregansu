@@ -1,10 +1,12 @@
+SUBDIRS = lib framework
+
 prefix ?= /usr/local
 phpincdir ?= /usr/share/php
 
 all: tests docs
 
-tests:
-	cd t && $(MAKE)
+tests clean:
+	for i in $(SUBDIRS) ; do cd $$i && $(MAKE) $@ || exit $? ; cd .. ; done
 
 docs site:
 	cd docs && $(MAKE) $@
@@ -12,7 +14,5 @@ docs site:
 install: all
 	mkdir -p $(DESTDIR)$(phpincdir)/eregansu
 	cp -Rf . $(DESTDIR)$(phpincdir)/eregansu
-
-clean:
 
 .PHONY: all tests docs site clean install
