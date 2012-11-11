@@ -218,4 +218,4 @@ Observers::observe('sessionInitialised', array('PlatformRequestObserver', 'sessi
 $request = Request::requestForSAPI();
 
 /* Create the initial app instance */
-$app = App::initialApp();
+$app = App::initialApp($request->sapi);
