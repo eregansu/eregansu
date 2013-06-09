@@ -34,3 +34,6 @@
 [submodule "wp-plugins"]
 	path = wp-plugins
 	url = git://github.com/eregansu/wp-plugins.git
+[submodule "db"]
+	path = db
+	url = git://github.com/eregansu/db.git
