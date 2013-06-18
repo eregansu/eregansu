@@ -37,3 +37,6 @@
 [submodule "db"]
 	path = db
 	url = git://github.com/eregansu/db.git
+[submodule "views"]
+	path = views
+	url = git://github.com/eregansu/views.git
