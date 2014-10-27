@@ -2,10 +2,11 @@ Source: eregansu
 Section: web
 Priority: extra
 Maintainer: Mo McRoberts <mo.mcroberts@bbc.co.uk>
-Build-Depends: debhelper (>= 8.0.0), autoconf, automake, libtool, libxml2-dev, libcurl4-gnutls-dev, librdf0-dev, libltdl-dev
+Build-Depends: debhelper (>= 8.0.0), autoconf, automake, php5-cli
 Standards-Version: 3.9.3
 
 Package: php-eregansu
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, php5-cli
+Recommends: libapache2-mod-php5 | php5-fpm | php5-cgi
 Description: Eregansu PHP framework
