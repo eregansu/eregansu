@@ -40,3 +40,6 @@
 [submodule "views"]
 	path = views
 	url = git://github.com/eregansu/views.git
+[submodule "m4"]
+	path = m4
+	url = git://github.com/nevali/m4.git

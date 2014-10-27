@@ -1,0 +1,10 @@
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+/eregansu
+/configure
+/config.log
+/config.status
+/install-sh
+/missing
